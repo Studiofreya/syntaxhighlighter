@@ -252,6 +252,7 @@ class SyntaxHighlighter {
 			'fadetogrey' => __( 'Fade to Grey', 'syntaxhighlighter' ),
 			'midnight'   => __( 'Midnight',     'syntaxhighlighter' ),
 			'rdark'      => __( 'RDark',        'syntaxhighlighter' ),
+			'sfparent'   => __( 'Sfparent',     'syntaxhighlighter' ),
 			'none'       => __( '[None]',       'syntaxhighlighter' ),
 		) );
 
