@@ -153,6 +153,7 @@ class SyntaxHighlighter {
 		wp_register_style(  'syntaxhighlighter-theme-default',    plugins_url( $this->shfolder . '/styles/shThemeDefault.css',    __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
 		wp_register_style(  'syntaxhighlighter-theme-django',     plugins_url( $this->shfolder . '/styles/shThemeDjango.css',     __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
 		wp_register_style(  'syntaxhighlighter-theme-eclipse',    plugins_url( $this->shfolder . '/styles/shThemeEclipse.css',    __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
+		wp_register_style(  'syntaxhighlighter-theme-sfparent',   plugins_url( $this->shfolder . '/styles/shThemeSfparent.css',   __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
 		wp_register_style(  'syntaxhighlighter-theme-emacs',      plugins_url( $this->shfolder . '/styles/shThemeEmacs.css',      __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
 		wp_register_style(  'syntaxhighlighter-theme-fadetogrey', plugins_url( $this->shfolder . '/styles/shThemeFadeToGrey.css', __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
 		wp_register_style(  'syntaxhighlighter-theme-midnight',   plugins_url( $this->shfolder . '/styles/shThemeMidnight.css',   __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );

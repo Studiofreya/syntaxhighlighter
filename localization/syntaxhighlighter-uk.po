@@ -45,6 +45,10 @@ msgid "RDark"
 msgstr "RDark"
 
 #: syntaxhighlighter.php:216
+msgid "Sfparent"
+msgstr "Sfparent"
+
+#: syntaxhighlighter.php:217
 msgid "[None]"
 msgstr "Жодного"
 
